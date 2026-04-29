@@ -44,10 +44,10 @@ class Knight:
 
 # final stats
         self.power = (self.raw_power + self.weapon_power
-        + self.potion_power_effect)
+                      + self.potion_power_effect)
         self.hp = self.raw_hp + self.potion_hp_effect
         self.protection = (self.raw_protection + self.armour_protection
-        + self.potion_protection_effect)
+                           + self.potion_protection_effect)
         self.max_hp = self.hp
 
     def take_damage(self, opponent: Knight) -> None:
